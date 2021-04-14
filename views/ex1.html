@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" media="screen"/>
+</head>
+<body>
+    <h1><a href="../index.html">Link to Start Page</a></h1>
+    <form>
+        Name: <input type="text" name="Name">
+        <br>
+        <br>
+        Email: <input type="text" name="Email">
+        <br>
+        <br>
+    
+        Payment type:<br>
+        <input type="radio" name="payment" value="cash">Cash<br>
+        <input type="radio" name="payment" value="creditcard">Credit Card<br>
+        <input type="radio" name="payment" value="googlepay">Google Pay<br>
+        <input type="radio" name="payment" value="applepay">Apple Pay<br>
+    <br>
+    
+        <input type="checkbox" name="promo" value="specialpromo">Sign me up for special promotions<br>
+    <br>
+    
+        Prefered Location:<br>
+        <select name="locations">
+            <option value="losangeles">Los Angeles</option>
+            <option value="orange">Orange County</option>
+            <option value="riverside">Riverside</option>
+            <option value="Sandiego">San Diego</option>
+    
+        </select>
+    <br>
+    <br>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Cancel" />
+    
+    </form>
+    <p id="result"></p>
+    <script src="ex1.js"></script>
+</body>
+</html>
+
